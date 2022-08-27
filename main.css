@@ -40,7 +40,7 @@ h3 {
 }
 
 .resume {
-  width: 80%;
+  width: 60%;
   background: #ffffff;
   color: #ffffff;
   margin: auto;
@@ -528,4 +528,11 @@ h3 {
 
 .resume .func .interests-items div span {
   display: block;
+}
+
+@media screen and (max-width: 900px){
+  .resume {
+    width: 100%;
+    font-size: 14px;
+  }
 }
