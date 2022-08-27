@@ -475,12 +475,12 @@ h3 {
   position: absolute;
   display: block;
   width: 100%;
-  top: 52%;
+  top: 55%;
   transition-duration: 0.3s;
 }
 
 .resume .func .skills-soft ul li span {
-  top: 40%;
+  top: 30%;
 }
 
 .resume .func .interests {
@@ -543,7 +543,13 @@ h3 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  h3 {
+    color: #FFFFFF;
+    margin: 10px 0;
+    font-size: 1.10em;
+  }
+
   .resume {
     width: 100%;
     font-size: 14px;
@@ -552,6 +558,12 @@ h3 {
 
   .resume .base {
     width: 100%;
+  }
+
+  .resume .base .follow .box i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
 
   .resume .base .profile .photo img {
@@ -563,5 +575,26 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .resume .func h3 i {
+    color: #11152B;
+    background: #EBE7E8;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .resume .func .skills-prog ul li span {
+    display: block;
+    width: 35%;
+  }
+
+  .resume .func .interests-items div i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
 }
