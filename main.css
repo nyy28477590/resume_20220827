@@ -66,7 +66,7 @@ h3 {
 }
 
 .resume .base {
-  width: 40%;
+  width: 35%;
   padding: 30px 15px;
   background: #11152B;
   color: #ffffff;
@@ -406,7 +406,7 @@ h3 {
 
 .resume .func .skills-prog ul li span {
   display: block;
-  width: 120px;
+  width: 20%;
 }
 
 .resume .func .skills-prog ul li .skills-bar {
@@ -532,7 +532,36 @@ h3 {
 
 @media screen and (max-width: 900px){
   .resume {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .resume .base,
+  .resume .func {
+    box-sizing: border-box;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resume {
     width: 100%;
     font-size: 14px;
+    display: block;
+  }
+
+  .resume .base {
+    width: 100%;
+  }
+
+  .resume .base .profile .photo img {
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  .resume .base .profile .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
